@@ -52,7 +52,9 @@ Chute trop rapide et déviation vers l’avant du ballon
 
  
  ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/92324336/196150592-5e0e63ab-3efd-46d0-87c5-3a70648e245a.gif)
+ 
  Chute trop rapide et déviation vers l’avant du ballon
+ 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/92324336/196150600-0ea6b890-4277-482e-ab90-22b4451c2d09.gif)
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/92324336/196150604-4481a67e-9f54-466a-b5c0-d0c6d77fe20c.gif)
 
