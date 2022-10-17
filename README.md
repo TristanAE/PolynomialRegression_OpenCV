@@ -30,9 +30,13 @@ _b)	Algorithme Polynomial Regression_
 
 Une fois que le ballon de baudruche aura été envoyé, nous utiliserons la bibliothèque Sklearn pour anticiper la position d’arrivé au sol de celui-ci.
 Grâce à la partie de traitement d’image, nous allons récupérer cinq fois les coordonnées du ballon dans les airs, à des intervalles de temps très court. Ces coordonnées, placées dans un tableau Numpy, vont être utilisées dans un algorithme de régression polynomiale pour pouvoir prédire la fin du mouvement du ballon.
-Nous avons ainsi un algorithme capable de prédire le probable mouvement du ballon. Nous cherchons à savoir si lorsque la coordonnée x du ballon atteint la coordonné x du robot, leur coordonnée en y seront également les mêmes (environ).
+
+Nous avons ainsi un algorithme capable de prédire le probable mouvement du ballon. Nous cherchons à savoir si lorsque la coordonnée x du ballon atteint la coordonnée x du robot, leur coordonnée y seront également les mêmes (environ).
+
 •	Si le ballon prévoit de chuter avant d’atteindre le robot, alors quand xballon=xrobot, yballon < yrobot
+
 •	Si le ballon prévoit de chuter après le robot, alors quand xballon=xrobot, yballon > yrobot
+
 Selon le résultat, le programme commande au robot d’avancer ou de reculer via wifi, puis prédit de nouveau la coordonnée y du ballon avec la nouvelle cordonnée en x du robot. 
 
 
